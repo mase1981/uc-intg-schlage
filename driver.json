@@ -1,0 +1,39 @@
+{
+  "driver_id": "uc_intg_schlage",
+  "version": "1.0.0",
+  "min_core_api": "0.22.0",
+  "name": {
+    "en": "Schlage"
+  },
+  "icon": "uc:home",
+  "description": {
+    "en": "Control Schlage Encode and Sense Wi-Fi smart locks from your Schlage Home account. Lock and unlock, set the auto-lock delay, toggle the beeper and lock-and-leave, and monitor battery level, lock status, and who last operated the lock. Every lock on your account is added automatically."
+  },
+  "developer": {
+    "name": "Meir Miyara",
+    "email": "meir.miyara@gmail.com",
+    "url": "https://github.com/mase1981"
+  },
+  "home_page": "https://github.com/mase1981/uc-intg-schlage",
+  "release_date": "2026-09-04",
+  "setup_data_schema": {
+    "title": {
+      "en": "Schlage Account"
+    },
+    "settings": [
+      {
+        "id": "info",
+        "label": {
+          "en": "Schlage Account"
+        },
+        "field": {
+          "label": {
+            "value": {
+              "en": "On the next screen, enter the username (email) and password for your Schlage Home account (the same credentials you use in the Schlage Home app). All locks on the account will be added."
+            }
+          }
+        }
+      }
+    ]
+  }
+}
